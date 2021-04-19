@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tinyurl_v2
+    container_name: tinyurl_v2
+    # env_file: dev.env
+    ports:
+      - "7000:7000"
+      # - "80:80"
+    extra_hosts:
+    - "hostname:127.0.0.1"
+networks:
+  the_net:    
+    # links:
+    #   - mongo   
