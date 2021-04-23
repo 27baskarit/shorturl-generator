@@ -30,7 +30,12 @@ docker build -t tinyurl .
 # Start  server
 docker run --network="host" -it -d --expose 7000 -p 7000:7000 tinyurl
 ```
+[![Watch the video](https://media.giphy.com/media/M0p927SSTR1oSGnsx1/giphy.gif)](https://drive.google.com/file/d/1Mc4hGVaPghlJss2fkaLMBdhbP2YqV6Vs/view?usp=sharing)
 
+
+## How to post params
+
+[![Watch the video](https://media.giphy.com/media/bb1Zb8ITsfBIhCkqvf/giphy.gif)](https://drive.google.com/file/d/1ePNGbsGCwRB5INyXnlfW0YUN-lJHXD7w/view)
 ## License
 
 MIT
