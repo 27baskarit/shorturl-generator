@@ -8,7 +8,7 @@ Custom URL Shortner
 
 ```sh
 # clone it
-git clone https://baskarbse@bitbucket.org/baskarbse/yaac-tinyurl.git
+git clone https://github.com/27baskarit/shorturl-generator.git
 
 # Install dependencies
 npm install
